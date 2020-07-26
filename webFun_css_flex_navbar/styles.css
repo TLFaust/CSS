@@ -1,0 +1,40 @@
+/* part 1 */
+.outter-box {
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-around;
+  background-color: royalblue;
+  padding: 20px;
+}
+.center-item {
+  display: flex;
+  align-content: center;
+}
+/* part 2 */
+#dojo {
+  background-color: #1f1e1e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  margin: 0px;
+}
+#coding {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  width: 1000px;
+  align-items: center;
+  margin-right: 100px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+  list-style-type: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
